@@ -1,6 +1,7 @@
 package com.ipl.automation.base;
 
 import com.ipl.automation.utils.ConfigReader;
+import com.ipl.automation.utils.ScreenshotUtils;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
