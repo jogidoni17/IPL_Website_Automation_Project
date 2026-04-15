@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="IPL Suite for Edge">
+    <parameter name="browser" value="edge"/>
+
+    <test name="IPL Tests for Edge">
+        <classes>
+            <class name ="tests.FooterLinksTest"/>
+            <class name ="tests.TeamsTest"/>
+            <class name ="tests.PointsTableTest"/>
+            <class name ="tests.SearchTest"/>
+            <class name ="tests.VenuesTest"/>
+            <class name ="tests.AuctionTest"/>
+            <class name ="tests.StatsTest"/>
+        </classes>
+    </test>
+</suite>
