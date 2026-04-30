@@ -108,12 +108,6 @@ mvn clean test
 ```
 ---
 
-### Run Specific Test
-```
-mvn test -Dtest=TeamsTest
-```
----
-
 ### Run via TestNG XML
 > Right Click → testng/testng-chrome.xml → Run
 > 
